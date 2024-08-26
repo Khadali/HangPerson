@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Hang Person</h1>
+    <p>Choose your category. Use the hint and click the letter of the alphabet to guess the word.</p>
+    <div id="categories"></div>
+    <div id="wordSpaces"></div>
+    <div id="strikes">You missed: 0</div>
+    <div id="hangman-container">
+        <div id="hangman">
+            <div id="head" class="hangman-part"></div>
+            <div id="body" class="hangman-part"></div>
+            <div id="left-arm" class="hangman-part"></div>
+            <div id="right-arm" class="hangman-part"></div>
+            <div id="left-leg" class="hangman-part"></div>
+            <div id="right-leg" class="hangman-part"></div>
+        </div>
+    </div>
+    <div id="keyboard"></div>
+    <button id="playAgain" style="display: none;">Play Again</button>
+    <script src="index.js"></script>
+</body>
+</html>
